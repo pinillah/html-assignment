@@ -56,13 +56,11 @@ li:nth-child(odd) {
 a:link {
     text-decoration:none;
     text-transform: uppercase;
-}
-
-a[href^="/notes.html"], a[href^="/index.html"] {
     background-color: rgb(255, 255, 255);
     color: black;
     padding: 10px;
 }
+
 
 a:hover, a:focus {
     background-color: rgb(240, 222, 254);
