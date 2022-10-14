@@ -6,15 +6,17 @@ body {
     margin: 0px;
 }
 
+
+header {
+    margin-bottom: 30px;
+}
+
 header,
 footer {
     background-color: black;
     color: white;
     text-align: center;
-    padding-top: 10px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 30px;
+    padding: 20px;
 }
 
 p {
@@ -89,6 +91,7 @@ a:hover, a:focus {
 
 .site-title {
     color: rgb(234, 214, 248);
+    font-size: 50px;
     letter-spacing: 0.2rem;
     text-transform: uppercase;
 }
