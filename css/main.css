@@ -1,11 +1,14 @@
+html {
+    font-size: 12px;
+}
+
 body {
     font-family: sans-serif;
-    font-size: 18px;
+    font-size: 1.5rem;
     text-align: justify;
     background-color: black;
     margin: 0px;
 }
-
 
 header {
     margin-bottom: 30px;
@@ -19,10 +22,22 @@ footer {
     padding: 20px;
 }
 
+a {
+    color: rgb(149, 52, 223);
+    border-color: rgb(240, 222, 254);
+    border-style: solid;
+    border-width: 3px;
+    outline: 3px;
+}
+
+nav {
+    word-spacing: 30px;
+}
+
 p {
     text-align: justify;
     margin-top: 30px;
-    line-height: 2rem;
+    line-height: 2.5rem;
 }
 
 blockquote {
@@ -36,7 +51,7 @@ mark {
 }
 
 dt {
-    font-size: 20px;
+    font-size: 1.6rem;
     font-weight: 700;
     padding: 10px;
 }
@@ -55,11 +70,14 @@ li:nth-child(odd) {
     color: black;
 }
 
+ul {
+    list-style-type: square;
+  }
+
 a:link {
     text-decoration:none;
     text-transform: uppercase;
     background-color: rgb(255, 255, 255);
-    color: black;
     padding: 10px;
 }
 
@@ -71,10 +89,7 @@ a:hover, a:focus {
 
 #section1 {
     background-color: white;
-    padding-top: 10px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 30px;
+    padding: 10px 50px 30px 50px
 }
 
 #my-image {
@@ -91,7 +106,7 @@ a:hover, a:focus {
 
 .site-title {
     color: rgb(234, 214, 248);
-    font-size: 50px;
+    font-size: 4.2rem;
     letter-spacing: 0.2rem;
     text-transform: uppercase;
 }
@@ -103,3 +118,4 @@ a:hover, a:focus {
     background-color:  rgb(240, 222, 254);
     color: black;
 }
+
