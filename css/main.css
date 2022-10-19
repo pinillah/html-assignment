@@ -92,13 +92,13 @@ a:hover, a:focus {
     padding: 10px 50px 30px 50px
 }
 
-#my-image {
+#photo {
     padding-top: 30px;
     text-align: center;
     background-color: rgb(255, 255, 255);
 }
 
-.photo {
+#my-image {
     box-shadow: 0px 0px 2px 1px rgb(225, 122, 254);
     background-color: rgb(255, 255, 255);
 }
